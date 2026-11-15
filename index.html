@@ -35,10 +35,24 @@
       margin-bottom: 16px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     }
-    .pizza-card h3 {
-      margin: 0 0 8px 0;
+    .pizza-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .pizza-header h3 {
+      margin: 0;
       color: #c8102e;
       font-size: 20px;
+    }
+    .price {
+      background-color: #c8102e;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 16px;
     }
     .pizza-card p {
       margin: 0;
@@ -59,20 +73,30 @@
     <h2 class="menu-title">Nuestro Menú</h2>
 
     <div class="pizza-card">
-      <h3>Pizza Memme</h3>
+      <div class="pizza-header">
+        <h3>Pizza Memme</h3>
+        <span class="price">$3,99</span>
+      </div>
       <p>Pan árabe, salsa especial de tomate y orégano, cuadros de jamón de pavo y cuadros de tocineta.</p>
     </div>
 
     <div class="pizza-card">
-      <h3>Pizza Full-sabor</h3>
+      <div class="pizza-header">
+        <h3>Pizza Full-sabor</h3>
+        <span class="price">$5,99</span>
+      </div>
       <p>Pan árabe, salsa especial de tomate y orégano, cuadros de jamón de pavo, cuadros de tocineta, trozos de pimentón verde y cebolla.</p>
     </div>
 
     <div class="pizza-card">
-      <h3>Pizza light</h3>
+      <div class="pizza-header">
+        <h3>Pizza light</h3>
+        <span class="price">$1,99</span>
+      </div>
       <p>Pan árabe, salsa especial de tomate y orégano y cuadros de jamón.</p>
     </div>
   </div>
 
 </body>
 </html>
+
