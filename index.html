@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Pizzas Memme</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzas Memme</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #fcfcfc;
+      color: #333;
+    }
+    .menu-container {
+      max-width: 550px;
+      margin: 40px auto;
+      text-align: left;
+    }
+    .menu-title {
+      text-align: center;
+      color: #222;
+      font-size: 26px;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #c8102e;
+      padding-bottom: 10px;
+    }
+    .pizza-card {
+      background-color: #ffffff;
+      border: 1px solid #eeeeee;
+      border-left: 5px solid #c8102e;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .pizza-card h3 {
+      margin: 0 0 8px 0;
+      color: #c8102e;
+      font-size: 20px;
+    }
+    .pizza-card p {
+      margin: 0;
+      color: #555;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #fcfcfc;">
+<body>
 
-    <img src="logo.png" alt="Logo de Pizzas Memme" width="180">
+  <img src="logo.png" alt="Logo de Pizzas Memme" width="180">
 
-    <h1>🍕 ¡Bienvenidos a Pizzas Memme!</h1>
-    <p>Nuestra página web oficial está en construcción. ¡Muy pronto podrás ver nuestro menú!</p>
+  <h1>🍕 ¡Bienvenidos a Pizzas Memme!</h1>
+  <p>¡Disfruta nuestras deliciosas pizzas artesanales!</p>
+
+  <div class="menu-container">
+    <h2 class="menu-title">Nuestro Menú</h2>
+
+    <div class="pizza-card">
+      <h3>Pizza Memme</h3>
+      <p>Pan árabe, salsa especial de tomate y orégano, cuadros de jamón de pavo y cuadros de tocineta.</p>
+    </div>
+
+    <div class="pizza-card">
+      <h3>Pizza Full-sabor</h3>
+      <p>Pan árabe, salsa especial de tomate y orégano, cuadros de jamón de pavo, cuadros de tocineta, trozos de pimentón verde y cebolla.</p>
+    </div>
+
+    <div class="pizza-card">
+      <h3>Pizza light</h3>
+      <p>Pan árabe, salsa especial de tomate y orégano y cuadros de jamón.</p>
+    </div>
+  </div>
 
 </body>
 </html>
